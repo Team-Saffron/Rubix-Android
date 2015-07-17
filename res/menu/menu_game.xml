@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/acrade" android:orderInCategory="100" android:title="Acrade" app:showAsAction="never" />
+    <item android:id="@id/multi" android:orderInCategory="100" android:title="Multiplayer" app:showAsAction="never" />
+    <item android:id="@id/stats" android:orderInCategory="100" android:title="Statistics" app:showAsAction="never" />
+    <item android:id="@id/action_save" android:orderInCategory="100" android:title="Save and Exit" app:showAsAction="never" />
+    <item android:id="@id/help" android:orderInCategory="100" android:title="Help" app:showAsAction="never" />
+    <item android:id="@id/action_settings" android:orderInCategory="100" android:title="@string/action_settings" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_action_refresh" android:id="@id/refresh" android:orderInCategory="100" android:title="refresh" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_help" android:id="@id/nextMove" android:orderInCategory="100" android:title="nextMove" app:showAsAction="ifRoom" />
+</menu>
